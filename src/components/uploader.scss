@@ -1,0 +1,56 @@
+
+body{
+    background-color: rgb(20, 24, 24);
+}
+
+
+.uploader-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .img-wrapper{
+        display: flex;
+        margin: 50px 0 20px 0;
+        .img-one{
+            margin: 50px 0 20px 0;
+            background-color: rgb(51, 59, 59);
+            img{
+                width: 200px;
+                height: 200px;
+                margin-right:40px;
+                margin-left:40px;
+            }
+            .ttext{
+                text-align : center;
+                color: azure;
+            }
+        }
+        
+    }
+    .upload-button{
+        button{
+            margin: 0 5px;
+        }
+    }
+    .img-array{
+        display: inline-block;
+        justify-content: center;
+        margin-top: 100px;
+        .img-arrays{
+            float:left;
+            img{
+                width: 200px;
+                height: 200px;
+                margin-right:20px;
+                margin-left:20px;
+            }
+            .ttext{
+                text-align : center;
+                color: azure;
+                font-size: 30px;
+            }
+        }
+    }
+}
